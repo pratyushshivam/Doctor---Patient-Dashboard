@@ -1,0 +1,60 @@
+.loginPage-signup{
+    /* border:1px solid red; */
+    background-color:rgb(255, 255, 255) !important;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-panel-signup{
+    height: 90vh;
+    /* margin-right:-5%; */
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.left-panel-header-signup{
+    /* border:1px solid red; */
+    padding:10%;
+    padding-left: 25%;
+    padding-bottom:4%;
+}
+.left-panel-header-signup h1{
+    letter-spacing:1.3px;
+    font-size: 33px;
+}
+.left-panel-header-signup p{
+    letter-spacing:0.7px;
+    font-weight: 800;
+    font-size: 18px;
+    color: #929292;
+}
+.right-panel-signup{
+    height: 100vh;
+    /* border: 1px solid red; */
+    width: 55%;
+    background-image: url('../../images/Background2.png')  !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar{
+    display:none !important;
+}
+.left-panel-form-signup{
+    height:45vh;
+      /* padding-left: 10%; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding-left: 25%;
+
+}
+.left-panel-form-signup input{
+    /* width: 100% !important; */
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    width: 340px;
+}
+span{
+    color:#ff83ff;
+}
